@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:peachpuff ;
+    padding: 20px;
+}
+.list-item{
+    display: flex;
+    gap: 20px;
+    
+}
+.list-item li{
+         list-style: none;
+        
+}
+/* Banner section */
+ .Banner-content{
+    text-align: center;
+    background-color:peachpuff ;
+    padding: 40px;
+ }
+ .banner-button{
+    background-color: orange;
+    border: none;
+    border-radius: 8px;;
+    padding: 25px;
+    margin-top:15px ;
+    margin-bottom: 20px;
+ }
+ .banner-heading{
+    font-size: 50px;
+
+ }
+ .banner-image{
+    display:block ;
+    margin: auto;
+    width: 650px;
+ }
+ /* Responsive media qurey */
+ @media screen and (max-width:500px) {
+    .banner-image{
+        width: 350px;
+    }
+    .banner-heading{
+        font-size: 40px;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+ }
+
+    
